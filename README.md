@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/mohamed-ansaff-67ba98282"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF6700?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
+  <a href="www.linkedin.com/in/ansaff"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF6700?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
   &nbsp;
   <a href="mailto:mohamedansaff.ai@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-FF6700?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
 </p>

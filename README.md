@@ -1,126 +1,100 @@
-<!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6700,100:FF9E00&height=200&section=header&text=Mohamed%20Ansaff&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=AI%20Engineer%20%C2%B7%20Cloud%20Background&descAlignY=60&descSize=20" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=d2ff00&height=210&section=header&text=Mohamed%20Ansaff&fontColor=282c20&fontSize=56&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20agentic%20AI%2C%20LLMs%20and%20ML%20systems%20on%20Google%20Cloud&descAlignY=58&descSize=18" width="100%" alt="Mohamed Ansaff, AI Engineer"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&pause=1000&color=FF6700&center=true&vCenter=true&width=760&lines=AI+Engineer+with+a+Cloud+Background;From+model+to+production+on+the+cloud;Building+%26+deploying+intelligent+systems" alt="Typing SVG" />
+  <a href="https://ansaff.com"><img src="https://img.shields.io/badge/ansaff.com-portfolio-d2ff00?style=for-the-badge&labelColor=282c20" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/ansaff"><img src="https://img.shields.io/badge/LinkedIn-in%2Fansaff-d2ff00?style=for-the-badge&logo=linkedin&logoColor=d2ff00&labelColor=282c20" alt="LinkedIn"></a>
+  <a href="mailto:mohamedansaff.ai@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hi-d2ff00?style=for-the-badge&logo=gmail&logoColor=d2ff00&labelColor=282c20" alt="Email"></a>
 </p>
 
 <p align="center">
-  <a href="www.linkedin.com/in/ansaff"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF6700?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
-  &nbsp;
-  <a href="mailto:mohamedansaff.ai@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-FF6700?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
-</p>
-
----
-
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
-
-```yaml
-name:     Mohamed Ansaff Abdul Salam
-role:     AI Engineer  (Cloud & Software background)
-focus:    [ machine learning, model deployment & MLOps, cloud engineering ]
-based_in: Sri Lanka
-mindset:  "Build systems that scale, ship, and solve real problems."
-```
-
-> I build and deploy **AI systems end to end** — from training models to shipping them into production,
-> backed by a strong **cloud and software engineering** foundation (GCP). I care about clean architecture,
-> reliable deployment, and turning machine learning into products people actually use.
-
----
-
-## 🛠️ Tech Stack
-
-<table align="center">
-  <tr>
-    <td align="center"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=python,java,c,sql,r&perline=6" alt="languages"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>AI &amp; ML</b></td>
-    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,keras,sklearn,opencv&perline=6" alt="ai"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>LLM / GenAI</b></td>
-    <td>
-      <a href="#"><img src="https://img.shields.io/badge/Hugging_Face-FF6700?logo=huggingface&logoColor=white&style=for-the-badge" alt="hugging face"/></a>
-      <a href="#"><img src="https://img.shields.io/badge/LangChain-FF6700?logo=langchain&logoColor=white&style=for-the-badge" alt="langchain"/></a>
-      <a href="#"><img src="https://img.shields.io/badge/FastAPI-FF6700?logo=fastapi&logoColor=white&style=for-the-badge" alt="fastapi"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Cloud &amp; DevOps</b></td>
-    <td><img src="https://skillicons.dev/icons?i=gcp,firebase,docker,linux,bash,git,vscode&perline=7" alt="cloud"/></td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub><b>AI/ML:</b> Deep Learning · Computer Vision · Generative Models · LLMs &amp; RAG · Model Deployment &amp; MLOps &nbsp;|&nbsp;
-  <b>Cloud:</b> GCP (Vertex AI · Compute Engine · Cloud Storage · BigQuery) · Firebase · Docker</sub>
+  <code>🟢 open to AI engineering roles</code> &nbsp; <code>📍 Kuala Lumpur, Malaysia</code>
 </p>
 
 ---
 
-## 🚀 Flagship Projects
+I build AI that leaves the notebook. At **AirAsia** I shipped agents, MCP infrastructure and data pipelines to production on Google Cloud, turning days of manual work into seconds. I care about AI that is grounded, secure and genuinely useful to the people who rely on it.
+
+## 📄 Research
+
+**[M-PFT: Angular Margin for Calibrated Prompt-Tuning of Fine-Tuned Vision-Language Models](https://github.com/ansaff-cs/M-PFT)**  
+<sub>Shihab Aaqil Ahamed\*, **Mohamed Ansaff**\*, Nang Khin Myat Lay Phyu, Udaya S.K.P. Miriya Thanthrige, Chamira U. S. Edussooriya, Ranga Rodrigo, Muhammad Haris Khan &nbsp;·&nbsp; \*equal contribution</sub>  
+<a href="https://github.com/ansaff-cs/M-PFT"><img src="https://img.shields.io/badge/WACV-2027-d2ff00?style=flat-square&labelColor=282c20" alt="WACV 2027"></a>
+<a href="https://github.com/ansaff-cs/M-PFT"><img src="https://img.shields.io/badge/code-coming%20soon-d2ff00?style=flat-square&logo=github&labelColor=282c20" alt="Code"></a>
+
+Fixes the base-to-novel *dual miscalibration* of prompt-tuned VLMs with two angular objectives: push class embeddings apart and anchor them to their zero-shot counterparts. Evaluated across 9 prompt-tuning methods and 15 datasets.
+
+## 🏢 Experience
+
+**AI Intern · [AirAsia](https://www.airasia.com)** &nbsp;<sub>Mar – Sep 2026 · Kuala Lumpur · AI team · Google Cloud</sub>
+
+- Architected an internal **MCP server** on GCP that standardises tool-calling for agents across teams
+- Built **Google ADK agents** for legal Q&A (contract review in seconds, not days) and BRD generation (~40–50% faster scoping)
+- Engineered a **Gemini** email triage & routing agent for high-volume shared mailboxes with SLA-compliant routing
+- Built a GCP ingestion pipeline for unstructured comms data, cutting processing overhead by **50%**
+
+## 🚀 Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/milo">🐈‍⬛ milo</a></h3>
-      An offline-first, <b>cross-platform agentic coding CLI</b> for local LLMs (LM Studio / Ollama / vLLM).
-      One-command installers, a multi-layer safety sandbox, automatic GPU lifecycle management, and a
-      polished terminal UI — <b>GenAI + software engineering</b>, end to end.
+      <h3><a href="https://github.com/ansaff-cs/chess-coach-agent">♟️ Chess Coach Agent</a></h3>
+      Stockfish finds the mistakes in your game, then a <b>Gemini agent on Google ADK</b> explains them at your rating level, grounded in engine-verified lines. Deployed on <b>Cloud Run</b>.
+      <br/><sub><code>Google ADK</code> <code>Gemini</code> <code>Cloud Run</code></sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/RealEye">👁️ RealEye</a></h3>
-      A frequency-augmented <b>Vision Transformer</b> (ViT-B/16) that fuses RGB + DCT features to detect
-      GAN/diffusion deepfakes. Trained on <b>200K+ images</b> — a robust, explainable ML pipeline.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/Sentiment-Analysis">🧠 Mental-Health Sentiment Analysis</a></h3>
-      An <b>NLP</b> pipeline that classifies mental-health signals from text — data processing, model
-      training, and evaluation for real-world language understanding.
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/ICU-Patient-Posture-Monitoring-App-TAi-">🩺 ThermalVision AI</a></h3>
-      An <b>applied-AI healthcare app</b> that analyzes ICU patient posture from thermal images/video,
-      giving nurses real-time safety alerts — AI delivered as a usable product.
+      <h3><a href="https://github.com/ansaff-cs/milo">🐈‍⬛ milo</a></h3>
+      Offline-first <b>agentic coding CLI</b> for local LLMs (LM Studio / Ollama / vLLM). One command, runs in your terminal and frees your GPU on exit. Windows, macOS and Linux.
+      <br/><sub><code>Local LLMs</code> <code>Agents</code> <code>CLI</code></sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/YoLoFish">♟️ YoLoFish</a></h3>
-      A real-time <b>YOLOv8</b> chess-piece detector that reconstructs FEN from live board images and
-      integrates <b>Stockfish</b> to suggest best moves — an end-to-end computer-vision system.
+      <h3><a href="https://github.com/ansaff-cs/RealEye">👁️ RealEye</a></h3>
+      Frequency-augmented <b>Vision Transformer</b> (ViT-B/16) that fuses RGB and DCT features to detect GAN and diffusion deepfakes.
+      <br/><sub><code>ViT</code> <code>PyTorch</code> <code>91% recall</code></sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnseedX/Handwriting-Recognition-with-Angular-Diversity">✍️ Handwriting Recognition</a></h3>
-      A high-accuracy, <b>CPU-optimized</b> offline recognizer using Angular Diversity Regularization —
-      efficient ML deployment in a resource-constrained environment.
+      <h3><a href="https://github.com/ansaff-cs/ICU-Patient-Posture-Monitoring-App-TAi-">🩺 ICU Posture Monitor</a></h3>
+      Real-time patient posture monitoring from thermal images and video, alerting nurses to bedsore risk.
+      <br/><sub><code>Computer Vision</code> <code>Healthcare</code> <code>95% acc</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ansaff-cs/YoLoFish">🎯 YoLoFish</a></h3>
+      Real-time <b>YOLOv8</b> chess-piece detector that rebuilds the board from a live image and asks <b>Stockfish</b> for the best move.
+      <br/><sub><code>YOLOv8</code> <code>Computer Vision</code> <code>Stockfish</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ansaff-cs/Handwriting-Recognition-with-Angular-Diversity">✍️ Handwriting Recognition</a></h3>
+      CPU-friendly offline handwriting recognizer trained with <b>angular diversity regularization</b>.
+      <br/><sub><code>Deep Learning</code> <code>Regularization</code> <code>CPU inference</code></sub>
     </td>
   </tr>
 </table>
 
----
+<sub>Also built: <b>Agronus</b> (RAG copilot for farmers, Imagine Cup 2026) and <b>HealthSync</b> (multilingual first-aid chatbot for rural care). More on <a href="https://ansaff.com">ansaff.com</a>.</sub>
 
-## 📊 GitHub Stats
+## 🛠️ Stack
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnseedX&theme=transparent&hide_border=true&ring=FF6700&fire=FF6700&currStreakLabel=FF6700" alt="streak" height="170"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,docker,gcp,git,linux&perline=9" alt="Python, PyTorch, TensorFlow, scikit-learn, FastAPI, Docker, GCP, Git, Linux"/>
 </p>
 
----
+<code>Google ADK</code> <code>MCP</code> <code>Gemini</code> <code>LangChain</code> <code>RAG</code> <code>Vertex AI</code> <code>BigQuery</code> <code>Cloud Run</code> <code>SQL</code> <code>CI/CD</code>
 
-## 🎯 Beyond Code
+## 🎓 Education & Credentials
 
-- ♟️ FIDE-rated chess player — **Arena Candidate Master (2025)**
-- 🏆 Former **Provincial Chess Champion**, Sri Lanka
-- 🤖 Loves merging **cloud, software, and AI** with strategic problem-solving — in both code and chess
+- **BSc (Hons) Computer Science, Data Science**, Al-Bukhary International University · CGPA 3.62 · fully funded scholarship
+- Google Cloud Certified **Generative AI Leader**
+- **AI Research Foundations** (Google DeepMind) · **Machine Learning Specialization** (Stanford · DeepLearning.AI)
+
+## ♟️ Beyond code
+
+FIDE **Arena Candidate Master** (2025) and former **Provincial Chess Champion** in Sri Lanka, which explains why so many of my projects end up playing chess.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF9E00,100:FF6700&height=120&section=footer" width="100%" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=d2ff00&height=110&section=footer" width="100%" alt=""/>
 </p>

@@ -72,8 +72,9 @@ function editor() {
       <text x="${tx + 20}" y="${top - 16}" ${FM} font-size="13" fill="${on ? INK : MUTE}">${name}</text>`;
     tx += w + 4; return s;
   }).join("");
-  // photo "preview pane" on the right
-  const px = 930, py = top + 30, pw = 310;
+  // editor "outline" panel on the right, listing the class members
+  const OUTLINE = [["v", "based_in"], ["v", "status"], ["v", "focus"], ["v", "shipped"], ["f", "research()"], ["f", "off_hours()"], ["f", "portfolio()"]];
+  const px = 930, py = top + 30, pw = 310, outlineH = 118 + (OUTLINE.length - 1) * 32 + 30;
   const body = `
     <rect width="${W}" height="${top}" fill="${BG2}"/>
     ${[30, 52, 74].map(x => `<circle cx="${x}" cy="${top / 2 + 4}" r="6" fill="none" stroke="${INK}" stroke-opacity=".3" stroke-width="1.5"/>`).join("")}
@@ -86,13 +87,14 @@ function editor() {
     <text x="${cx}" y="${y0 + last * lh}" ${FM} font-size="${fs}" fill="${INK}" xml:space="preserve">${pyLine(CODE[last])}${appear(lineT(last))}</text>
     <rect x="${endX}" y="${y0 + last * lh - fs + 2}" width="${cw}" height="${fs + 4}" fill="${INK}"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect>
     <g>
-      <clipPath id="ph"><rect x="${px}" y="${py}" width="${pw}" height="${pw}" rx="18"/></clipPath>
-      <image href="data:image/jpeg;base64,${PHOTO}" x="${px}" y="${py}" width="${pw}" height="${pw}" clip-path="url(#ph)" preserveAspectRatio="xMidYMid slice"/>
-      <rect x="${px}" y="${py}" width="${pw}" height="${pw}" rx="18" fill="none" stroke="${LINE}" stroke-width="1.5"/>
-      <text x="${px}" y="${py + pw + 28}" ${FM} font-size="13" fill="${MUTE}">me.jpg · preview</text>
-      <rect x="${px}" y="${py + pw + 46}" width="${pw}" height="64" rx="14" fill="${BG2}"/>
-      <text x="${px + 18}" y="${py + pw + 72}" ${FM} font-size="12" fill="${MUTE}">$ python -c "print(MohamedAnsaff())"</text>
-      <text x="${px + 18}" y="${py + pw + 96}" ${FM} font-size="14" font-weight="700" fill="${INK}">AI Engineer · ready to ship</text>
+      <rect x="${px}" y="${py}" width="${pw}" height="${outlineH}" rx="18" fill="${BG2}"/>
+      <text x="${px + 22}" y="${py + 36}" ${FM} font-size="12" fill="${MUTE}" letter-spacing="1">OUTLINE</text>
+      <line x1="${px + 22}" y1="${py + 52}" x2="${px + pw - 22}" y2="${py + 52}" stroke="${LINE}"/>
+      <text x="${px + 22}" y="${py + 84}" ${FM} font-size="14" font-weight="700" fill="${INK}"><tspan fill="${ACC}">C</tspan>  MohamedAnsaff</text>
+      ${OUTLINE.map(([k, n], i) => `<text x="${px + 44}" y="${py + 118 + i * 32}" ${FM} font-size="14" fill="${INK}"><tspan fill="${ACC}">${k}</tspan>  ${n}</text>`).join("")}
+      <rect x="${px}" y="${py + outlineH + 18}" width="${pw}" height="64" rx="14" fill="${BG2}"/>
+      <text x="${px + 18}" y="${py + outlineH + 44}" ${FM} font-size="12" fill="${MUTE}">$ python -c "print(MohamedAnsaff())"</text>
+      <text x="${px + 18}" y="${py + outlineH + 68}" ${FM} font-size="14" font-weight="700" fill="${INK}">AI Engineer · ready to ship</text>
       ${appear(0.4)}
     </g>
     <rect y="${H - 44}" width="${W}" height="44" fill="${BG2}"/>

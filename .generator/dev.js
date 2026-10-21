@@ -108,7 +108,8 @@ function editor() {
 /* ---------- git log timeline ---------- */
 const LOG = [
   ["HEAD -> main", "WACV 2027 accepted: M-PFT, equal first author", "2026"],
-  ["", "ship chess-coach-agent: Stockfish + Gemini on Cloud Run", "2026"],
+  ["", "ship chess-coach-agent: Stockfish + Gemini on Cloud Run", "oct 2026"],
+  ["", "release milo: offline-first agentic coding CLI for local LLMs", "sep 2026"],
   ["", "wrap AirAsia internship: 6 systems running in production", "sep 2026"],
   ["", "join AirAsia AI team: Google ADK, MCP, Gemini", "mar 2026"],
   ["", "build Agronus, a RAG copilot for farmers (Imagine Cup)", "2025"],

@@ -8,4 +8,4 @@
 
 <a href="https://github.com/ansaff-cs/M-PFT"><img src="assets/research-v2.svg" width="100%" alt="WACV 2027: M-PFT, Angular Margin for Calibrated Prompt-Tuning of Fine-Tuned Vision-Language Models"></a>
 
-<img src="assets/gitlog.svg" width="100%" alt="git log: WACV 2027 accepted; shipped chess-coach-agent; AirAsia AI internship Mar to Sep 2026; Agronus for Imagine Cup; FIDE Arena Candidate Master; BSc Computer Science at AIU">
+<img src="assets/gitlog-v2.svg" width="100%" alt="git log: WACV 2027 accepted; shipped chess-coach-agent; released milo; AirAsia AI internship Mar to Sep 2026; Agronus for Imagine Cup; FIDE Arena Candidate Master; BSc Computer Science at AIU">

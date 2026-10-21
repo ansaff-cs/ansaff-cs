@@ -162,7 +162,8 @@ function research() {
     const tail = a.endsWith("*") ? `<tspan fill="${ACC}" font-weight="600" dy="-6" font-size="11">*</tspan><tspan dy="6">${sep || " "}</tspan>` : sep;
     return (a.startsWith("Mohamed Ansaff") ? `<tspan fill="${INK}" font-weight="600">${name}</tspan>` : name) + tail;
   }).join("")}</text>`).join("");
-  const ny = ay0 + aLines.length * 26 + 10;
+  const summary = wrapText("Fixes the base-to-novel dual miscalibration of prompt-tuned vision-language models with two angular objectives, across 9 prompt-tuning methods and 15 datasets.", maxW - 40, s => twI(s, 18));
+  const ny = ay0 + (summary.length - 1) * 28 + 12;
   const btn = "code coming soon ↗", bw = twM(btn, 14) + 36, by = ny + 30;
   // angular-margin diagram
   const O = [870, 460], RR = 330, rad = a => a * Math.PI / 180;
@@ -181,13 +182,12 @@ function research() {
   const zero = a => { const [zx, zy] = pt(a); return `<line x1="${O[0]}" y1="${O[1]}" x2="${f(zx)}" y2="${f(zy)}" stroke="${INK}" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"/><circle cx="${f(zx)}" cy="${f(zy)}" r="8" fill="${BG}" stroke="${INK}" stroke-width="2"/>`; };
   const [lzj] = [pt(zj, RR + 26)], [lzk] = [pt(zk, RR + 26)];
   const body = `
-    ${tag(x, 62, "// research · peer reviewed")}
+    ${tag(x, 62, "// research")}
     <rect x="${x}" y="84" width="${twM("WACV 2027", 14) + 28}" height="32" rx="16" fill="${INK}"/>
     <text x="${x + 14}" y="105" ${FM} font-size="14" fill="${LIMEC}">WACV 2027</text>
     <text x="${x + twM("WACV 2027", 14) + 42}" y="105" ${FM} font-size="14" fill="${MUTE}">accepted · equal first author</text>
     ${title.map((l, i) => `<text x="${x - 2}" y="${ty0 + 22 + i * tl}" ${FD} font-size="46" letter-spacing="-1.5" fill="${INK}">${esc(l)}</text>`).join("")}
-    ${authorSvg}
-    <text x="${x}" y="${ny}" ${FM} font-size="12" fill="${MUTE}"><tspan fill="${ACC}">*</tspan> equal contribution</text>
+    ${summary.map((l, i) => `<text x="${x}" y="${ay0 + i * 28}" ${FI} font-size="18" fill="${MUTE}">${esc(l)}</text>`).join("")}
     <rect x="${x}" y="${by}" width="${bw}" height="42" rx="21" fill="${LIMEC}" stroke="${INK}" stroke-width="1.2"/>
     <text x="${x + 18}" y="${by + 26}" ${FM} font-size="14" fill="${INK}">${esc(btn)}</text>
 

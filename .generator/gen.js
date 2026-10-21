@@ -14,6 +14,7 @@ const FONTS = [
   ["JetBrains Mono", "400", F_mono],
   ["Inter", "400", F_inter],
   ["Inter", "600", F_interb],
+  ["JetBrains Mono", "700", F_monob],
 ];
 const msvg = document.createElementNS(NS, "svg");
 document.body.appendChild(msvg);
@@ -269,18 +270,3 @@ function footer() {
   return doc(W, H, body);
 }
 
-/* ---------- run ---------- */
-(async () => {
-  for (const [f, w, b] of FONTS) { const ff = new FontFace(f, `url(data:font/woff2;base64,${b})`, { weight: w }); await ff.load(); document.fonts.add(ff); }
-  const out = {
-    hero: hero(), stats: stats(), research: research(), featured: featured(),
-    milo: card(ART.miloCard(LIGHT), "milo", "2026", "Offline-first agentic coding CLI for local LLMs. One command, runs in your terminal, frees your GPU on exit.", ["local llms", "agents", "cli"]),
-    realeye: card(ART.realeye(LIGHT), "RealEye", "2025", "Frequency-augmented Vision Transformer that fuses RGB and DCT features to catch GAN and diffusion deepfakes.", ["vit", "pytorch", "91% recall"]),
-    icu: card(ART.icu(LIGHT), "ICU Posture Monitor", "2025–26", "Real-time patient posture tracking that flags bedsore risk and tells nurses when to reposition.", ["computer vision", "healthcare", "95% acc"]),
-    agronus: card(ART.agronus(LIGHT), "Agronus", "2025", "RAG-powered copilot giving farmers real-time guidance grounded in crop documents and weather.", ["rag", "llm", "imagine cup 2026"]),
-    stack: stack(), footer: footer(),
-  };
-  const pre = document.createElement("pre"); pre.id = "out";
-  pre.textContent = Object.entries(out).map(([k, v]) => `${k} ${btoa(unescape(encodeURIComponent(v)))}`).join("\n");
-  document.body.appendChild(pre);
-})();
